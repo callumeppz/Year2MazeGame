@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".GameOver"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:gravity="center">
+
+
+    <TextView
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#bb1044"
+        android:gravity="center"
+        android:text="Aim of the game is to complete as many levels as possible without getting lost in the maze or killed, good luck!"
+        android:textColor="#5D3FD3"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/title"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Green is The Player"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="20sp"
+        android:backgroundTint="#bb1044"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Red Are enemies"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20sp"
+        android:backgroundTint="#bb1044"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yellow for points"
+        android:textColor="#FFC300"
+        android:textSize="20sp"
+        android:backgroundTint="#bb1044"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blue is the exit"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:backgroundTint="#bb1044"
+        android:gravity="center"
+        />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#5D3FD3"
+        android:onClick="back"
+        android:text="BACK"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="30sp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#5D3FD3"
+        android:onClick="exit"
+        android:text="EXIT"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="30sp" />
+
+
+
+
+</LinearLayout>
+

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My 2d Application</string>
+    <string name="menu_start">Start</string>
+    <string name="menu_save">save</string>
+    <string name="menu_resume">resume</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_back">Back</string>
+    <string name="menu_settings">Instructions</string>
+    <string name="mode_ready">ready</string>
+    <string name="mode_pause">pause</string>
+    <string name="mode_lose">lose</string>
+    <string name="mode_win">win</string>
+    <string name="game_title">Maze Chaser</string>
+    <string name="MAZE" />
+    <string name="Maze">MAZE</string>
+    <string name="menu_endgame">Endgame</string>
+    <string name="menu_reset">reset</string>
+</resources>
